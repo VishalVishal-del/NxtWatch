@@ -99,7 +99,7 @@ export default class Login extends Component {
           <Input
             type="text"
             id="username"
-            placeholder="Username"
+            placeholder="Username (rahul)"
             onChange={this.setUsername}
           />
           <Label htmlFor="password" theme="true">
@@ -108,7 +108,7 @@ export default class Login extends Component {
           <Input
             type="password"
             id="password"
-            placeholder="Password"
+            placeholder="Password (rahul@2021)"
             onChange={this.setPassword}
           />
           <ShowPasswordContainer>
